@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-const {bool,oneWay} = Ember.computed;
+var { bool, oneWay } = Ember.computed;
 
 export default Ember.Component.extend({
   tagName: 'label',

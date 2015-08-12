@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import Registrable from 'ember-float-label/mixins/registrable';
 
-var alias = Ember.computed.alias;
+const alias = Ember.computed.alias;
 
 export default {
   name: 'float-label',
