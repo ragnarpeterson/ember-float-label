@@ -1,7 +1,7 @@
-import Em from 'ember';
-import FloatLabel from '../components/float-label';
+import Ember from 'ember';
+import FloatLabel from 'ember-float-label/components/float-label';
 
-export default Em.Mixin.create({
+export default Ember.Mixin.create({
   _registerWithFloatLabel: function() {
     var parent = this.get('parentView');
     if (parent instanceof FloatLabel) { parent.send('register', this); }

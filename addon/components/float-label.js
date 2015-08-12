@@ -1,13 +1,15 @@
-import Em from 'ember';
+import Ember from 'ember';
 
-export default Em.Component.extend({
+const {bool,oneWay} = Ember.computed;
+
+export default Ember.Component.extend({
   tagName: 'label',
   classNames: ['float-label'],
   classNameBindings: ['hasValue'],
   field: null,
-  label: Em.computed.oneWay('field.floatLabel'),
-  value: Em.computed.oneWay('field.value'),
-  hasValue: Em.computed.bool('value'),
+  label: oneWay('field.floatLabel'),
+  value: oneWay('field.value'),
+  hasValue: bool('value'),
 
   actions: {
     register: function(field) {
