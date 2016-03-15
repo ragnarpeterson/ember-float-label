@@ -1,6 +1,6 @@
 {
   "name": "ember-float-label",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Animated float labels for your Ember app",
   "directories": {
     "doc": "doc",
