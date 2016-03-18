@@ -1,4 +1,4 @@
-# ember-float-label
+# ember-float-label [![Build Status](https://travis-ci.org/jasonkriss/ember-float-label.svg?branch=master)](https://travis-ci.org/jasonkriss/ember-float-label)
 
 Animated float labels for your Ember app.
 
